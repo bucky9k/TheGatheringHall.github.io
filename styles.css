@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.checklist {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    cursor: pointer;
+}
